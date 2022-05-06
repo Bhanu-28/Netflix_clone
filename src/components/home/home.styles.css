@@ -1,0 +1,149 @@
+.Home {
+	background-color: black;
+}
+.header {
+	height: 98vh;
+	background-position: center;
+	background-size: cover;
+	object-fit: fill;
+	background-image: linear-gradient(
+			to top,
+			rgba(0, 0, 0, 0.8) 0,
+			rgba(0, 0, 0, 0.6) 60%,
+			rgba(0, 0, 0, 0.8) 100%
+		),
+		url("https://assets.nflxext.com/ffe/siteui/vlv3/11c803d4-06f3-467e-91f7-0560ce15a396/0eceea79-5607-407a-ae10-52f26872d601/IN-en-20210517-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+	display: grid;
+	place-items: center;
+	text-align: center;
+	border-bottom: 8px solid #222;
+}
+
+.story-card {
+	color: white;
+	width: 100%;
+	padding: 75px 0;
+	max-width: 950px;
+	margin: 0 auto;
+	text-align: center;
+	z-index: 1;
+	font-weight: 400;
+}
+
+.story-card__title {
+	font-size: 4rem;
+	line-height: 1.1;
+	margin-bottom: 0.5rem;
+}
+
+.story-card__subtitle {
+	font-size: 1.625rem;
+	margin: 1rem auto;
+}
+
+.story-card__form {
+	max-width: 950px;
+	padding-top: 0.85rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.story-card__form-title {
+	padding-bottom: 20px;
+	font-size: 1.2rem;
+	margin: 0 auto;
+	font-weight: 400;
+}
+
+.story-card__form-lookup {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0.25rem;
+}
+
+.story-card__form-lookup__input {
+	outline: none;
+	border: none;
+	font-size: 16px;
+	width: 70%;
+	color: #000;
+	padding: 0 1rem;
+	height: 70px;
+}
+
+.story-card__form-lookup__input:focus {
+	border: none;
+	outline: none;
+}
+
+.story-card__form-lookup__button {
+	padding: 0 1rem;
+	background: #bb0a12;
+	color: white;
+	outline: none;
+	border: none;
+	align-self: stretch;
+	width: 30%;
+	font-size: 1.5rem;
+	cursor: pointer;
+}
+
+.story-card__form-lookup__button:hover {
+	background: #f40612;
+}
+
+.features {
+	min-height: 100vh;
+}
+
+.feature {
+	color: white;
+	padding: 5rem 3rem;
+	margin-bottom: 0.8rem;
+	border-bottom: 8px solid #222;
+}
+
+.feature__card {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.feature:nth-child(even) .feature__card {
+	flex-direction: row-reverse;
+}
+
+.feature__card__text {
+	width: 52%;
+	height: 100%;
+	-webkit-box-flex: 0;
+	flex: 0 1 auto;
+	padding: 0 3rem 0 0;
+	z-index: 3;
+	font-size: 1.625rem;
+	font-weight: 400;
+}
+
+.feature__card__text-title {
+	font-size: 3.125rem;
+	line-height: 1.1;
+	margin-bottom: 0.5rem;
+	margin: 0 0 0.4rem;
+}
+
+.feature__card__text-subtitle {
+	font-size: 1.625rem;
+	font-weight: 400;
+	margin: 0.75rem 0 0.25rem;
+}
+
+.footer {
+	text-align: center;
+	padding: 0.5rem;
+	color: grey;
+}
+
+.footer .footer__text {
+	font-size: 1rem;
+}
